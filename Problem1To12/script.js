@@ -14,6 +14,7 @@
  */
 
 
+ console.log("%cProblem 02", styles);
 
 let name_1 = 'bilal';
 console.log(`Hello ${name_1}, would you like to learn some Javascript today?`);
@@ -25,6 +26,8 @@ console.log(`Hello ${name_1}, would you like to learn some Javascript today?`);
  * Name Cases: Store a person’s name in a variable, and then print that person’s name in lowercase, uppercase, and titlecase.
  * 
  */
+
+ console.log("%cProblem 03", styles);
 
  let name_2 = 'AsLaM';
  console.log(`Lowercase:  ${name_2.toLowerCase()}
@@ -40,6 +43,9 @@ console.log(`Hello ${name_1}, would you like to learn some Javascript today?`);
  * Your output should look something like the following, including the quotation marks:
  */
 
+  console.log("%cProblem 04", styles);
+
+
  let name_3 = 'Rumi';
  console.log(` ${name_3} once said, “Yesterday I was clever, so I wanted to change the world. Today, I am wise so I am changing myself.”`);
 
@@ -51,6 +57,7 @@ console.log(`Hello ${name_1}, would you like to learn some Javascript today?`);
  * Print your message.
  * 
  */
+  console.log("%cProblem 05", styles);
 
 let famous_person = 'Rumi', message = ` ${famous_person} once said, “Yesterday I was clever, so I wanted to change the world. Today, I am wise so I am changing myself.”`;
  console.log(message);
@@ -64,6 +71,9 @@ let famous_person = 'Rumi', message = ` ${famous_person} once said, “Yesterday
  * Print the name once,so the whitespace around the name is displayed. 
  * Then print the name after striping the white spaces.
  */
+
+ console.log("%cProblem 6", styles);
+
 
 let person_name = '\t\tBilal\t\t\n';
 console.log(person_name);
@@ -81,6 +91,7 @@ console.log(person_name.trim());
  * Your output should simply be four lines with the number 8 appearing once on each line.
  */
 
+   console.log("%cProblem 07", styles);
 
 console.log(' 4 + 4 : '+ (4+4));
 console.log(' 4 * 2 : '+ (4*2));
@@ -95,6 +106,9 @@ console.log('16 / 2 : '+ (16/2));
 *  Then, using that variable, create a message that reveals your favorite number.
 *  Print that message.
 */
+
+console.log("%cProblem 09", styles);
+
 
 let favorite_number = 12;
 console.log(` My favorite Number is ${favorite_number}`);
@@ -114,7 +128,7 @@ console.log(` My favorite Number is ${favorite_number}`);
 
 // Answer 10: 
 //        I have already put problem statement on the above of the all soutions
-//        in order to make it easy for the person who check this assignment and for my convenient as well.
+//        in order to make it easy for the person who will check this assignment and for my convenient as well.
 
 
 
@@ -126,6 +140,8 @@ console.log(` My favorite Number is ${favorite_number}`);
 * Names: Store the names of a few of your friends in a array called names. 
 *       Print each person’s name by accessing each element in the list, one at a time.
 */
+
+console.log("%cProblem 11", styles);
 
 const names = ['Bilal', 'Aslam', 'Asad'];
 
@@ -142,6 +158,8 @@ console.log(names[2]);
 * Greetings: Start with the array you used in Exercise 11, but instead of just printing each person’s name, print a message to them. 
 *            The text of each message should be the same, but each message should be personalized with the person’s name.
 */
+
+console.log("%cProblem 12", styles);
 
 for (let element of names)
 console.log(`Assalam O Alaikum  ${element}`);

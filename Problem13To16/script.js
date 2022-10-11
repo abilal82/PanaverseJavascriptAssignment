@@ -6,16 +6,6 @@
  */
 
 
-// Styles is used in console.log() as a second parameter to style output,to seperate every problem's output in the console.
- const styles = [
-  'color: white',
-  'background:dodgerblue ',
-  'font-size: 20px',
-  'border: 1px solid blue',
-  'padding: 10px',
-].join(';'); 
-
-
 
 
  /**
