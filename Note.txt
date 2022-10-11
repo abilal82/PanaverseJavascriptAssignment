@@ -1,0 +1,4 @@
+1) console-style.js files contains object for styling console output. It must be loaded before actual script file.
+   so that it can show its magic.
+   
+
